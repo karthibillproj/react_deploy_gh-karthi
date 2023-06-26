@@ -1,0 +1,55 @@
+Prequisite node version - 14.17.0
+
+npm uninstall @testing-library/jest-dom @testing-library/react @testing-library/user-event web-vitals 
+or
+npm install
+Command to start - npm start
+Command to initiate the local api - npx json-server -p 3500 -w data/db.json
+
+sample app to create command - npx create-react-app 01tut  
+
+Additional packages installed and remove based on package.json
+npm i react-icons --save-prod
+npm i react-router-dom@6 -S // this is version 6, version 5 covered for some chapters
+npm i date-fns -S
+npm i axios
+npm i easy-peasy
+ 
+
+React chapters
+Chapter 1: Start Here
+Chapter 2: App & JSX
+Chapter 3: Functional Components
+Chapter 4: Applying CSS Styles
+Chapter 5: Click Events
+Chapter 6: useState Hook - the function used for get, set values in component
+		example const [items, setItems] = useState([]);
+Chapter 7: Lists & Keys - while list is rendering key id is needed in react
+Chapter 8: Props & Prop Drilling - props is the properties parameter passed in the component while calling, it should be destructured
+Chapter 9: Controlled Component Inputs - setting the values in value field and on change function
+		example - <input id="searchbod" type="text" placeholder="Search Posts" value={search} onChange={(e) => setSearch(e.target.value)}
+Chapter 10: Project Challenge
+Chapter 11: useEffect Hook - the function will execute at the time of specifi render
+		example i) useEffect(() => {}) - call on every render
+				ii) useEffect(() => {}, []) - call on load render
+				iii) useEffect(() => {}, [items]) - call on item state change render
+Chapter 12: JSON Server
+Chapter 13: Fetch API Data
+Chapter 14: CRUD Operations
+Chapter 15: Fetch Data Challenge
+Chapter 16: React Router
+Chapter 17: Router Hooks & Links
+Chapter 18: Flexbox Components
+Chapter 19: Axios API Requests - axios inbuilt function to call the apis
+Chapter 20: Custom Hooks - creating the custom hook like useWindowSize to be reused easily in the app
+Chapter 21: Context API & useContext Hook - instead of writing a whole bunch of code in App, and passing a lots of props in the 		components of App.js. Use, useContext and Dataprovider to make it efficiently
+Chapter 22: Easy Peasy Redux - Different method of state management usage (useState) to have the code in more cleanedup and manageble way.
+Chapter 23: Build & Deploy Your React Apps - use netlify and github pages
+
+This repo covers till chapter 11
+
+
+References
+https://www.youtube.com/watch?v=RVFAyFWO4go&t=42s
+https://www.youtube.com/watch?v=P9ELDeqNToo&list=PL0Zuz27SZ-6PrE9srvEn8nbhOOyxnWXfp&index=6
+https://github.com/gitdagray/react_resources
