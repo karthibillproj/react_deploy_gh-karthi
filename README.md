@@ -1,5 +1,7 @@
 Refer notes/notes.txt for more details
 
+Application url - https://karthibillproj.github.io/react_deploy_gh-karthi/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
